@@ -29,6 +29,26 @@ The logic includes distance calculation, re-identification, and timer mechanisms
 
 ---
 
+## 📥 Model Downloads
+
+✅ YOLOv8 (Trained Model)
+
+You can use your own trained model, or download a sample YOLOv8n model from Ultralytics:
+
+[Download Pretrained YOLOv8n Weights](https://github.com/ultralytics/ultralytics/releases)
+
+✅ ResNet50 (TorchReID Pretrained)
+
+We use OSNet (ResNet-like) model for person re-identification:
+
+- TorchReID automatically downloads the pretrained weights from its model zoo.
+
+- You don’t need to download manually.
+
+Reference: [TorchReID Model Zoo](https://kaiyangzhou.github.io/deep-person-reid/MODEL_ZOO)
+
+---
+
 ## 🧪 How It Works
 
 - YOLOv8 detects all people and objects in each frame.
